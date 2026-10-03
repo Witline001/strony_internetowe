@@ -1,0 +1,51 @@
+body {
+    color: black;
+}
+
+h1 {
+    color: blue;
+}
+#test {
+     text-align: center;
+}
+#test:hover {
+    color: red;
+    text-decoration: underline;
+}
+#naglowek {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
+
+.opis {
+    color: green;
+    font-size: 20px;
+}
+
+.tytul-sekcji {
+    color: darkblue;
+    font-size: 32px;
+    font-family: Arial;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.tekst {
+    font-size: 18px;
+}
+
+.karta {
+    background-image: url("tlo.jpg");
+    background-size: cover;
+    background-position: center;
+
+    padding: 200px;
+    margin: 30px;
+    border: 2px solid black;
+    
+}
+.karta:hover {
+    border-color: red;
+    border-width: 10px;
+}
